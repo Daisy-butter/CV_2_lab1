@@ -108,15 +108,8 @@ This project demonstrates the power of transfer learning by fine-tuning a CNN pr
 ## 📦 Project Structure
 
 ```plaintext
-📁 data_preprocessing/
- ┗ 📜 data_preprocess.py        # Preprocess and split dataset
-
-📁 training/
- ┣ 📜 pretrain.py               # Fine-tune pretrained ResNet18
- ┣ 📜 train.py                  # Train ResNet18 from scratch
- ┗ 📜 pretrain_finetuning.ipynb # Hyperparameter tuning experiments
-
-📁 results/
- ┗ 📂 visualizations/           # Accuracy/loss curves and evaluation figures
-
-📜 README.md                    # You're here!
+ 📜 data_preprocess.py        # Preprocess and split dataset
+ 📜 pretrain.py               # Fine-tune pretrained ResNet18
+ 📜 train.py                  # Train ResNet18 from scratch
+ 📜 pretrain_finetuning.ipynb # Hyperparameter tuning experiments
+ 📜 README.md                 # You're here!
