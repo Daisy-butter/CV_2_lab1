@@ -38,24 +38,6 @@ Make sure the following Python packages are installed:
 
 ---
 
-## 📦 Project Structure
-
-```plaintext
-📁 data_preprocessing/
- ┗ 📜 data_preprocess.py        # Preprocess and split dataset
-
-📁 training/
- ┣ 📜 pretrain.py               # Fine-tune pretrained ResNet18
- ┣ 📜 train.py                  # Train ResNet18 from scratch
- ┗ 📜 pretrain_finetuning.ipynb # Hyperparameter tuning experiments
-
-📁 results/
- ┗ 📂 visualizations/           # Accuracy/loss curves and evaluation figures
-
-📜 README.md                    # Project documentation
-
----
-
 ## 🧹 Step 1: Dataset Preparation
 
 1. Download the dataset from [Caltech-101 Dataset](https://data.caltech.edu/records/mzrjq-6wc02).
@@ -120,5 +102,23 @@ Make sure the following Python packages are installed:
 ## 🧠 Summary
 
 This project demonstrates the power of transfer learning by fine-tuning a CNN pretrained on a large dataset (ImageNet) to achieve high accuracy on a smaller dataset (Caltech-101). With clearly structured experiments and visualizations, it serves as a strong foundation for future image classification projects.
+
+---
+
+## 📦 Project Structure
+
+```plaintext
+📁 data_preprocessing/
+ ┗ 📜 data_preprocess.py        # Preprocess and split dataset
+
+📁 training/
+ ┣ 📜 pretrain.py               # Fine-tune pretrained ResNet18
+ ┣ 📜 train.py                  # Train ResNet18 from scratch
+ ┗ 📜 pretrain_finetuning.ipynb # Hyperparameter tuning experiments
+
+📁 results/
+ ┗ 📂 visualizations/           # Accuracy/loss curves and evaluation figures
+
+📜 README.md                    # Project documentation
 
 ---
