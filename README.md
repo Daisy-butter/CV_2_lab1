@@ -1,4 +1,4 @@
-# 🧠 Fine-Tuning Pretrained CNNs on Caltech-101
+# Fine-Tuning Pretrained CNNs on Caltech-101
 
 This repository provides an implementation for fine-tuning convolutional neural networks (CNNs) pretrained on **ImageNet** to classify images from the **Caltech-101** dataset. It also includes a comparison with training from scratch to analyze the effectiveness of transfer learning.
 
