@@ -119,6 +119,4 @@ This project demonstrates the power of transfer learning by fine-tuning a CNN pr
 📁 results/
  ┗ 📂 visualizations/           # Accuracy/loss curves and evaluation figures
 
-📜 README.md                    # Project documentation
-
----
+📜 README.md                    # You're here!
